@@ -9,7 +9,17 @@ body {
     color: #F9FAF8;
 }
 
+.box {
+    background-color: white;
+    border: 3px solid #3882F6;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+}
+
 .awesome {
+
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
@@ -45,12 +55,10 @@ button {
     flex-direction: row;
     align-items: center;
     height: 60px;
+    margin-bottom: 0px;
     gap: 20px;
 }
 
-.rowone {
-    background-color: #1F2937;
-}
 .informationheader {
    font-size: 36px;
    font-weight: 900;
@@ -66,11 +74,59 @@ button {
 }
 
 
-.rowcontainer {
-    display: flex;
-    flex-direction: column;
+.container {
+    
+    
 }
 
+.rowone {
+    height: 200px;
+    background-color: #1F2937;
+}
+
+.awesome {
+
+}
+
+.subtext {
+
+}
+
+.rowtwo {
+    height: 150px;
+
+}
+
+.rowthree {
+    height: 200px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    
+}
+
+.rowfour {
+    display: flex;
+    height: 200px;
+    background-color: #3882F6;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.cta {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.there {
+    color: #F9FAF8;
+    font-size: 18px;
+}
 
 .footer {
     color: #E5E7EB;
