@@ -9,20 +9,30 @@ body {
     color: #F9FAF8;
 }
 
-.box {
-    background-color: white;
-    border: 3px solid #3882F6;
-    margin: 10px;
-    border-radius: 10px;
-    width: 150px;
-    height: 100px;
+.rowonesubcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.buttonone {
+    display: flex;
+    margin-top: 5px;
 }
 
 .awesome {
-
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+}
+
+.placeholder {
+    margin-left: 900px;
+    background-color: grey;
+    padding: 0px 50px 50px;
+    margin-top: 0;
 }
 
 a, .subtext {
@@ -49,6 +59,7 @@ button {
 .button {
     color: #E5E7EB;
 }
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -57,12 +68,6 @@ button {
     height: 60px;
     margin-bottom: 0px;
     gap: 20px;
-}
-
-.informationheader {
-   font-size: 36px;
-   font-weight: 900;
-   color: #1F2937; 
 }
 
 .quotesection {
@@ -75,12 +80,13 @@ button {
 
 
 .container {
-    
+    display: flex;
+    flex-direction: column;
     
 }
 
 .rowone {
-    height: 200px;
+    height: 250px;
     background-color: #1F2937;
 }
 
@@ -93,15 +99,49 @@ button {
 }
 
 .rowtwo {
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
 
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    align-content: center;
+}
+
+.informationheader {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937; 
+ }
+
+.box {
+    background-color: white;
+    border: 3px solid #3882F6;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
 }
 
 .rowthree {
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
     background-color: #E5E7EB;
     color: #1F2937;
-    
+}
+
+.thor {
+    margin-top: 20px;
 }
 
 .rowfour {
@@ -112,11 +152,19 @@ button {
 
 .bluebox {
     background-color: #3882F6;
-    width: 800px;
-    height: 100px;
+    padding: 30px;
+    padding-left: 50px;
+    width: 750px;
+    height: 40px;
     border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 25px;
 }
 
+.signup {
+    display: flex;
+    justify-content: center;
+}
 .cta {
     color: #F9FAF8;
     font-size: 24px;
