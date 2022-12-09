@@ -12,9 +12,9 @@ body {
 .rowonesubcontainer {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    
     margin-left: 200px;
-    margin-top: 10px;
+    width: 400px;
 }
 
 .buttonone {
@@ -29,11 +29,13 @@ body {
 }
 
 .placeholder {
-    margin-left: 900px;
+    display: flex;
+    align-self: center;
+    color: #E5E7EB;
+    margin-left: 100px;
     background-color: grey;
-    padding: 0px 50px 50px;
-    margin-top: 0;
-}
+    padding: 75px 50px 75px;
+}  
 
 a, .subtext {
     font-size: 18px;
@@ -50,6 +52,7 @@ a, .subtext {
     margin-left: 200px;
 }
 button {
+    display: flex;
     background-color: #3882F6;
     border-color: #E5E7EB;
     padding: 5px 30px 5px;
@@ -86,6 +89,7 @@ button {
 }
 
 .rowone {
+    display: flex;
     height: 250px;
     background-color: #1F2937;
 }
@@ -101,21 +105,21 @@ button {
 .rowtwo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 300px;
+    height: 260px;
 }
 
 .boxtwo {
     display: flex;
     flex-direction: column;
-    width: 130px;
-    align-content: center;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 .informationheader {
-    display: flex;
-    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 10px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937; 
@@ -124,10 +128,10 @@ button {
 .box {
     background-color: white;
     border: 3px solid #3882F6;
-    margin-top: 20px;
+    margin-right: 200px;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
 }
 
 .rowthree {
@@ -135,7 +139,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    height: 100px;
+    height: 80px;
     background-color: #E5E7EB;
     color: #1F2937;
 }
@@ -146,19 +150,28 @@ button {
 
 .rowfour {
     display: flex;
-    height: 200px;
+    height: 250px;
     background-color: #3882F6;
 }
 
+.signup2 {
+    display: flex;
+    align-content: center;
+    margin-top: 0px;
+}
 .bluebox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
     background-color: #3882F6;
     padding: 30px;
     padding-left: 50px;
     width: 750px;
     height: 40px;
     border-radius: 10px;
-    margin-left: 200px;
-    margin-top: 25px;
+    margin-left: 500px;
+    margin-top: 10px;
 }
 
 .signup {
